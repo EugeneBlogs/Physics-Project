@@ -1,0 +1,1646 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Физический кроссворд</title>
+    <script>
+        function Answer1() {
+            var vernoToast = document.getElementById('verno');
+            var nevernoToast = document.getElementById('neverno')
+            user_answer = document.getElementById('answer_question1').value.toUpperCase();
+            if (user_answer == "ЯВЛЕНИЕ") {
+                var toast = new bootstrap.Toast(vernoToast)
+                toast.show()
+                document.getElementById('bukva1_vopros1').innerHTML = user_answer[0];
+                document.getElementById('bukva2_vopros1').innerHTML = user_answer[1];
+                document.getElementById('bukva3_vopros1').innerHTML = user_answer[2];
+                document.getElementById('bukva4_vopros1').innerHTML = user_answer[3];
+                document.getElementById('bukva5_vopros1').innerHTML = user_answer[4];
+                document.getElementById('bukva6_vopros1').innerHTML = user_answer[5];
+                document.getElementById('bukva7_vopros1').innerHTML = user_answer[6];
+            }
+            else {
+                var toast = new bootstrap.Toast(nevernoToast)
+                toast.show()
+            }
+        }
+        function Answer2() {
+            var vernoToast = document.getElementById('verno');
+            var nevernoToast = document.getElementById('neverno')
+            user_answer = document.getElementById('answer_question2').value.toUpperCase();
+            if (user_answer == "МАТЕРИЯ") {
+                var toast = new bootstrap.Toast(vernoToast)
+                toast.show()
+                document.getElementById('bukva1_vopros2').innerHTML = user_answer[0];
+                document.getElementById('bukva2_vopros2').innerHTML = user_answer[1];
+                document.getElementById('bukva3_vopros2').innerHTML = user_answer[2];
+                document.getElementById('bukva4_vopros2').innerHTML = user_answer[3];
+                document.getElementById('bukva5_vopros2').innerHTML = user_answer[4];
+                document.getElementById('bukva6_vopros2').innerHTML = user_answer[5];
+                document.getElementById('bukva7_vopros2').innerHTML = user_answer[6];
+            }
+            else {
+                var toast = new bootstrap.Toast(nevernoToast)
+                toast.show()
+            }
+        }
+        function Answer3() {
+            var vernoToast = document.getElementById('verno');
+            var nevernoToast = document.getElementById('neverno')
+            user_answer = document.getElementById('answer_question3').value.toUpperCase();
+            if (user_answer == "МОЛЕКУЛА") {
+                var toast = new bootstrap.Toast(vernoToast)
+                toast.show()
+                document.getElementById('bukva1_vopros3').innerHTML = user_answer[0];
+                document.getElementById('bukva2_vopros3').innerHTML = user_answer[1];
+                document.getElementById('bukva3_vopros3').innerHTML = user_answer[2];
+                document.getElementById('bukva4_vopros3').innerHTML = user_answer[3];
+                document.getElementById('bukva5_vopros3').innerHTML = user_answer[4];
+                document.getElementById('bukva6_vopros3').innerHTML = user_answer[5];
+                document.getElementById('bukva7_vopros3').innerHTML = user_answer[6];
+                document.getElementById('bukva8_vopros3').innerHTML = user_answer[7];
+            }
+            else {
+                var toast = new bootstrap.Toast(nevernoToast)
+                toast.show()
+            }
+        }
+        function Answer4() {
+            var vernoToast = document.getElementById('verno');
+            var nevernoToast = document.getElementById('neverno')
+            user_answer = document.getElementById('answer_question4').value.toUpperCase();
+            if (user_answer == "АТОМ") {
+                var toast = new bootstrap.Toast(vernoToast)
+                toast.show()
+                document.getElementById('bukva1_vopros4').innerHTML = user_answer[0];
+                document.getElementById('bukva3_vopros2').innerHTML = user_answer[1];
+                document.getElementById('bukva3_vopros4').innerHTML = user_answer[2];
+                document.getElementById('bukva4_vopros4').innerHTML = user_answer[3];
+            }
+            else {
+                var toast = new bootstrap.Toast(nevernoToast)
+                toast.show()
+            }
+        }
+        function Answer5() {
+            var vernoToast = document.getElementById('verno');
+            var nevernoToast = document.getElementById('neverno')
+            user_answer = document.getElementById('answer_question5').value.toUpperCase();
+            if (user_answer == "ДАВЛЕНИЕ") {
+                var toast = new bootstrap.Toast(vernoToast)
+                toast.show()
+                document.getElementById('bukva1_vopros5').innerHTML = user_answer[0];
+                document.getElementById('bukva2_vopros5').innerHTML = user_answer[1];
+                document.getElementById('bukva3_vopros5').innerHTML = user_answer[2];
+                document.getElementById('bukva4_vopros5').innerHTML = user_answer[3];
+                document.getElementById('bukva5_vopros5').innerHTML = user_answer[4];
+                document.getElementById('bukva6_vopros5').innerHTML = user_answer[5];
+                document.getElementById('bukva7_vopros5').innerHTML = user_answer[6];
+                document.getElementById('bukva4_vopros3').innerHTML = user_answer[7];
+            }
+            else {
+                var toast = new bootstrap.Toast(nevernoToast)
+                toast.show()
+            }
+        }
+        function Answer6() {
+            var vernoToast = document.getElementById('verno');
+            var nevernoToast = document.getElementById('neverno')
+            user_answer = document.getElementById('answer_question6').value.toUpperCase();
+            if (user_answer == "ИНЕРЦИЯ") {
+                var toast = new bootstrap.Toast(vernoToast)
+                toast.show()
+                document.getElementById('bukva1_vopros6').innerHTML = user_answer[0];
+                document.getElementById('bukva2_vopros6').innerHTML = user_answer[1];
+                document.getElementById('bukva3_vopros6').innerHTML = user_answer[2];
+                document.getElementById('bukva4_vopros6').innerHTML = user_answer[3];
+                document.getElementById('bukva5_vopros6').innerHTML = user_answer[4];
+                document.getElementById('bukva6_vopros6').innerHTML = user_answer[5];
+                document.getElementById('bukva7_vopros6').innerHTML = user_answer[6];
+            }
+            else {
+                var toast = new bootstrap.Toast(nevernoToast)
+                toast.show()
+            }
+        }
+        function Answer7() {
+            var vernoToast = document.getElementById('verno');
+            var nevernoToast = document.getElementById('neverno')
+            user_answer = document.getElementById('answer_question7').value.toUpperCase();
+            if (user_answer == "РАВНОДЕЙСТВУЮЩАЯ") {
+                var toast = new bootstrap.Toast(vernoToast)
+                toast.show()
+                document.getElementById('bukva1_vopros7').innerHTML = user_answer[0];
+                document.getElementById('bukva2_vopros5').innerHTML = user_answer[1];
+                document.getElementById('bukva3_vopros7').innerHTML = user_answer[2];
+                document.getElementById('bukva4_vopros7').innerHTML = user_answer[3];
+                document.getElementById('bukva5_vopros7').innerHTML = user_answer[4];
+                document.getElementById('bukva6_vopros7').innerHTML = user_answer[5];
+                document.getElementById('bukva7_vopros7').innerHTML = user_answer[6];
+                document.getElementById('bukva8_vopros7').innerHTML = user_answer[7];
+                document.getElementById('bukva9_vopros7').innerHTML = user_answer[8];
+                document.getElementById('bukva10_vopros7').innerHTML = user_answer[9];
+                document.getElementById('bukva11_vopros7').innerHTML = user_answer[10];
+                document.getElementById('bukva12_vopros7').innerHTML = user_answer[11];
+                document.getElementById('bukva13_vopros7').innerHTML = user_answer[12];
+                document.getElementById('bukva14_vopros7').innerHTML = user_answer[13];
+                document.getElementById('bukva15_vopros7').innerHTML = user_answer[14];
+                document.getElementById('bukva1_vopros1').innerHTML = user_answer[15];
+            }
+            else {
+                var toast = new bootstrap.Toast(nevernoToast)
+                toast.show()
+            }
+        }
+        function Answer8() {
+            var vernoToast = document.getElementById('verno');
+            var nevernoToast = document.getElementById('neverno')
+            user_answer = document.getElementById('answer_question8').value.toUpperCase();
+            if (user_answer == "МЕХАНИЧЕСКОЕ") {
+                var toast = new bootstrap.Toast(vernoToast)
+                toast.show()
+                document.getElementById('bukva1_vopros3').innerHTML = user_answer[0];
+                document.getElementById('bukva2_vopros8').innerHTML = user_answer[1];
+                document.getElementById('bukva3_vopros8').innerHTML = user_answer[2];
+                document.getElementById('bukva4_vopros8').innerHTML = user_answer[3];
+                document.getElementById('bukva2_vopros6').innerHTML = user_answer[4];
+                document.getElementById('bukva6_vopros8').innerHTML = user_answer[5];
+                document.getElementById('bukva7_vopros8').innerHTML = user_answer[6];
+                document.getElementById('bukva8_vopros8').innerHTML = user_answer[7];
+                document.getElementById('bukva9_vopros8').innerHTML = user_answer[8];
+                document.getElementById('bukva10_vopros8').innerHTML = user_answer[9];
+                document.getElementById('bukva11_vopros8').innerHTML = user_answer[10];
+                document.getElementById('bukva12_vopros8').innerHTML = user_answer[11];
+            }
+            else {
+                var toast = new bootstrap.Toast(nevernoToast)
+                toast.show()
+            }
+        }
+        function Answer9() {
+            var vernoToast = document.getElementById('verno');
+            var nevernoToast = document.getElementById('neverno')
+            user_answer = document.getElementById('answer_question9').value.toUpperCase();
+            if (user_answer == "МАССА") {
+                var toast = new bootstrap.Toast(vernoToast)
+                toast.show()
+                document.getElementById('bukva1_vopros2').innerHTML = user_answer[0];
+                document.getElementById('bukva2_vopros9').innerHTML = user_answer[1];
+                document.getElementById('bukva3_vopros9').innerHTML = user_answer[2];
+                document.getElementById('bukva4_vopros9').innerHTML = user_answer[3];
+                document.getElementById('bukva5_vopros9').innerHTML = user_answer[4];
+            }
+            else {
+                var toast = new bootstrap.Toast(nevernoToast)
+                toast.show()
+            }
+        }
+        function Answer10() {
+            var vernoToast = document.getElementById('verno');
+            var nevernoToast = document.getElementById('neverno')
+            user_answer = document.getElementById('answer_question10').value.toUpperCase();
+            if (user_answer == "ДЕФОРМАЦИЯ") {
+                var toast = new bootstrap.Toast(vernoToast)
+                toast.show()
+                document.getElementById('bukva6_vopros7').innerHTML = user_answer[0];
+                document.getElementById('bukva2_vopros10').innerHTML = user_answer[1];
+                document.getElementById('bukva3_vopros10').innerHTML = user_answer[2];
+                document.getElementById('bukva4_vopros10').innerHTML = user_answer[3];
+                document.getElementById('bukva5_vopros10').innerHTML = user_answer[4];
+                document.getElementById('bukva6_vopros10').innerHTML = user_answer[5];
+                document.getElementById('bukva8_vopros3').innerHTML = user_answer[6];
+                document.getElementById('bukva8_vopros10').innerHTML = user_answer[7];
+                document.getElementById('bukva9_vopros10').innerHTML = user_answer[8];
+                document.getElementById('bukva10_vopros10').innerHTML = user_answer[9];
+            }
+            else {
+                var toast = new bootstrap.Toast(nevernoToast)
+                toast.show()
+            }
+        }
+        function Answer11() {
+            var vernoToast = document.getElementById('verno');
+            var nevernoToast = document.getElementById('neverno')
+            user_answer = document.getElementById('answer_question11').value.toUpperCase();
+            if (user_answer == "ДИФФУЗИЯ") {
+                var toast = new bootstrap.Toast(vernoToast)
+                toast.show()
+                document.getElementById('bukva1_vopros11').innerHTML = user_answer[0];
+                document.getElementById('bukva6_vopros6').innerHTML = user_answer[1];
+                document.getElementById('bukva3_vopros11').innerHTML = user_answer[2];
+                document.getElementById('bukva4_vopros11').innerHTML = user_answer[3];
+                document.getElementById('bukva5_vopros11').innerHTML = user_answer[4];
+                document.getElementById('bukva6_vopros11').innerHTML = user_answer[5];
+                document.getElementById('bukva7_vopros11').innerHTML = user_answer[6];
+                document.getElementById('bukva8_vopros11').innerHTML = user_answer[7];
+            }
+            else {
+                var toast = new bootstrap.Toast(nevernoToast)
+                toast.show()
+            }
+        }
+        function Answer12() {
+            var vernoToast = document.getElementById('verno');
+            var nevernoToast = document.getElementById('neverno')
+            user_answer = document.getElementById('answer_question12').value.toUpperCase();
+            if (user_answer == "БРОУНОВСКОЕ") {
+                var toast = new bootstrap.Toast(vernoToast)
+                toast.show()
+                document.getElementById('bukva1_vopros12').innerHTML = user_answer[0];
+                document.getElementById('bukva4_vopros6').innerHTML = user_answer[1];
+                document.getElementById('bukva3_vopros12').innerHTML = user_answer[2];
+                document.getElementById('bukva4_vopros12').innerHTML = user_answer[3];
+                document.getElementById('bukva5_vopros12').innerHTML = user_answer[4];
+                document.getElementById('bukva6_vopros12').innerHTML = user_answer[5];
+                document.getElementById('bukva7_vopros12').innerHTML = user_answer[6];
+                document.getElementById('bukva8_vopros12').innerHTML = user_answer[7];
+                document.getElementById('bukva9_vopros12').innerHTML = user_answer[8];
+                document.getElementById('bukva10_vopros12').innerHTML = user_answer[9];
+                document.getElementById('bukva11_vopros12').innerHTML = user_answer[10];
+            }
+            else {
+                var toast = new bootstrap.Toast(nevernoToast)
+                toast.show()
+            }
+        }
+        function Answer13() {
+            var vernoToast = document.getElementById('verno');
+            var nevernoToast = document.getElementById('neverno')
+            user_answer = document.getElementById('answer_question13').value.toUpperCase();
+            if (user_answer == "ПАСКАЛЯ") {
+                var toast = new bootstrap.Toast(vernoToast)
+                toast.show()
+                document.getElementById('bukva1_vopros13').innerHTML = user_answer[0];
+                document.getElementById('bukva2_vopros13').innerHTML = user_answer[1];
+                document.getElementById('bukva3_vopros13').innerHTML = user_answer[2];
+                document.getElementById('bukva4_vopros13').innerHTML = user_answer[3];
+                document.getElementById('bukva5_vopros13').innerHTML = user_answer[4];
+                document.getElementById('bukva6_vopros13').innerHTML = user_answer[5];
+                document.getElementById('bukva7_vopros13').innerHTML = user_answer[6];
+            }
+            else {
+                var toast = new bootstrap.Toast(nevernoToast)
+                toast.show()
+            }
+        }
+        function Answer14() {
+            var vernoToast = document.getElementById('verno');
+            var nevernoToast = document.getElementById('neverno')
+            user_answer = document.getElementById('answer_question14').value.toUpperCase();
+            if (user_answer == "МАНОМЕТР") {
+                var toast = new bootstrap.Toast(vernoToast)
+                toast.show()
+                document.getElementById('bukva4_vopros4').innerHTML = user_answer[0];
+                document.getElementById('bukva2_vopros14').innerHTML = user_answer[1];
+                document.getElementById('bukva3_vopros14').innerHTML = user_answer[2];
+                document.getElementById('bukva4_vopros14').innerHTML = user_answer[3];
+                document.getElementById('bukva5_vopros14').innerHTML = user_answer[4];
+                document.getElementById('bukva6_vopros14').innerHTML = user_answer[5];
+                document.getElementById('bukva7_vopros14').innerHTML = user_answer[6];
+                document.getElementById('bukva8_vopros14').innerHTML = user_answer[7];
+            }
+            else {
+                var toast = new bootstrap.Toast(nevernoToast)
+                toast.show()
+            }
+        }
+        function Answer15() {
+            var vernoToast = document.getElementById('verno');
+            var nevernoToast = document.getElementById('neverno')
+            user_answer = document.getElementById('answer_question15').value.toUpperCase();
+            if (user_answer == "ВЫТАЛКИВАЮЩАЯ") {
+                var toast = new bootstrap.Toast(vernoToast)
+                toast.show()
+                document.getElementById('bukva11_vopros7').innerHTML = user_answer[0];
+                document.getElementById('bukva2_vopros15').innerHTML = user_answer[1];
+                document.getElementById('bukva3_vopros15').innerHTML = user_answer[2];
+                document.getElementById('bukva4_vopros15').innerHTML = user_answer[3];
+                document.getElementById('bukva5_vopros15').innerHTML = user_answer[4];
+                document.getElementById('bukva6_vopros15').innerHTML = user_answer[5];
+                document.getElementById('bukva7_vopros15').innerHTML = user_answer[6];
+                document.getElementById('bukva8_vopros15').innerHTML = user_answer[7];
+                document.getElementById('bukva2_vopros13').innerHTML = user_answer[8];
+                document.getElementById('bukva10_vopros15').innerHTML = user_answer[9];
+                document.getElementById('bukva11_vopros15').innerHTML = user_answer[10];
+                document.getElementById('bukva12_vopros15').innerHTML = user_answer[11];
+                document.getElementById('bukva7_vopros2').innerHTML = user_answer[12];
+            }
+            else {
+                var toast = new bootstrap.Toast(nevernoToast)
+                toast.show()
+            }
+        }
+        function Setting1() {
+            var Q1 = $('#answer_question1').val();
+            if (Q1.length == 7) {
+                $('#question1_button').removeAttr('disabled');
+            } else {
+                $('#question1_button').attr('disabled', 'disabled');
+            }
+        }
+        function Setting2() {
+            var Q2 = $('#answer_question2').val();
+            if (Q2.length == 7) {
+                $('#question2_button').removeAttr('disabled');
+            } else {
+                $('#question2_button').attr('disabled', 'disabled');
+            }
+        }
+        function Setting3() {
+            var Q3 = $('#answer_question3').val();
+            if (Q3.length == 8) {
+                $('#question3_button').removeAttr('disabled');
+            } else {
+                $('#question3_button').attr('disabled', 'disabled');
+            }
+        }
+        function Setting4() {
+            var Q4 = $('#answer_question4').val();
+            if (Q4.length == 4) {
+                $('#question4_button').removeAttr('disabled');
+            } else {
+                $('#question4_button').attr('disabled', 'disabled');
+            }
+        }
+        function Setting5() {
+            var Q5 = $('#answer_question5').val();
+            if (Q5.length == 8) {
+                $('#question5_button').removeAttr('disabled');
+            } else {
+                $('#question5_button').attr('disabled', 'disabled');
+            }
+        }
+        function Setting6() {
+            var Q6 = $('#answer_question6').val();
+            if (Q6.length == 7) {
+                $('#question6_button').removeAttr('disabled');
+            } else {
+                $('#question6_button').attr('disabled', 'disabled');
+            }
+        }
+        function Setting7() {
+            var Q7 = $('#answer_question7').val();
+            if (Q7.length == 16) {
+                $('#question7_button').removeAttr('disabled');
+            } else {
+                $('#question7_button').attr('disabled', 'disabled');
+            }
+        }
+        function Setting8() {
+            var Q8 = $('#answer_question8').val();
+            if (Q8.length == 12) {
+                $('#question8_button').removeAttr('disabled');
+            } else {
+                $('#question8_button').attr('disabled', 'disabled');
+            }
+        }
+        function Setting9() {
+            var Q9 = $('#answer_question9').val();
+            if (Q9.length == 5) {
+                $('#question9_button').removeAttr('disabled');
+            } else {
+                $('#question9_button').attr('disabled', 'disabled');
+            }
+        }
+        function Setting10() {
+            var Q10 = $('#answer_question10').val();
+            if (Q10.length == 10) {
+                $('#question10_button').removeAttr('disabled');
+            } else {
+                $('#question10_button').attr('disabled', 'disabled');
+            }
+        }
+        function Setting11() {
+            var Q11 = $('#answer_question11').val();
+            if (Q11.length == 8) {
+                $('#question11_button').removeAttr('disabled');
+            } else {
+                $('#question11_button').attr('disabled', 'disabled');
+            }
+        }
+        function Setting12() {
+            var Q12 = $('#answer_question12').val();
+            if (Q12.length == 11) {
+                $('#question12_button').removeAttr('disabled');
+            } else {
+                $('#question12_button').attr('disabled', 'disabled');
+            }
+        }
+        function Setting13() {
+            var Q13 = $('#answer_question13').val();
+            if (Q13.length == 7) {
+                $('#question13_button').removeAttr('disabled');
+            } else {
+                $('#question13_button').attr('disabled', 'disabled');
+            }
+        }
+        function Setting14() {
+            var Q14 = $('#answer_question14').val();
+            if (Q14.length == 8) {
+                $('#question14_button').removeAttr('disabled');
+            } else {
+                $('#question14_button').attr('disabled', 'disabled');
+            }
+        }
+        function Setting15() {
+            var Q15 = $('#answer_question15').val();
+            if (Q15.length == 13) {
+                $('#question15_button').removeAttr('disabled');
+            } else {
+                $('#question15_button').attr('disabled', 'disabled');
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <header class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <img src="img/favicon.ico" alt="Логотип">
+                    <h1 class="text-white mt-5 zagolovok">Физический кроссворд</h1>
+                    <h3 class="text-white mt-5">
+                        <span style="font-size: 50px;"><strong><u>Цель работы:</u></strong></span><br><span
+                            style="font-size: 40px;"><strong>в игровой форме систематизировать и повторить полученные
+                                знания по физике за 7 класс перед итоговой контрольной работой.</strong></span>
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="ourteam">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center text-uppercase color1 mb-5">Наша команда «Физические легенды»</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/Евгений Мыльников.jpg" class="card-img-top" alt="Евгений Мыльников">
+                        <div class="card-body">
+                            <h5 class="card-title">Евгений Мыльников</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/Дарья Феськова и Вероника Митрофанова.jpg" class="card-img-top"
+                            alt="Дарья Феськова и Вероника Митрофанова">
+                        <div class="card-body">
+                            <h5 class="card-title">Вероника Митрофанова и Дарья Феськова</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/Роберт Кережа.jpg" class="card-img-top" alt="Роберт Кережа">
+                        <div class="card-body">
+                            <h5 class="card-title">Роберт Кережа</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="crossword">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="text-center text-uppercase color1">Перед решением кроссворда рекомендуем ознакомиться с
+                        учебником физики за 7 класс :)</h1>
+                    <h2 class="text-center text-uppercase mb-5 mt-5" style="color: red;">Нажмите на первую букву слова,
+                        отмеченную <span class="text-info">голубой</span> клеткой, чтобы увидеть вопрос и ввести ответ
+                    </h2>
+                    <h3 class="text-center text-uppercase color2 mb-5 mt-5">Кроссворд</h3>
+                </div>
+            </div>
+            <table>
+                <tr>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="WH bg-info lapka" data-bs-toggle="modal" data-bs-target="#mediumQuestion1"
+                        id="bukva1_vopros6" title="Уровень сложности вопроса: средний."></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                </tr>
+                <tr>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="WH bg-info lapka" data-bs-toggle="modal" data-bs-target="#peresechenie2"
+                        id="bukva1_vopros3" title="Уровни сложностей вопросов: лёгкий и средний."></td>
+                    <td id="bukva2_vopros8" class="WH"></td>
+                    <td id="bukva3_vopros8" class="WH"></td>
+                    <td id="bukva4_vopros8" class="WH"></td>
+                    <td id="bukva2_vopros6" class="WH"></td>
+                    <td id="bukva6_vopros8" class="WH"></td>
+                    <td id="bukva7_vopros8" class="WH"></td>
+                    <td id="bukva8_vopros8" class="WH"></td>
+                    <td id="bukva9_vopros8" class="WH"></td>
+                    <td id="bukva10_vopros8" class="WH"></td>
+                    <td id="bukva11_vopros8" class="WH"></td>
+                    <td id="bukva12_vopros8" class="WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                </tr>
+                <tr>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td id="bukva2_vopros3" class="WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td id="bukva3_vopros6" class="WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                </tr>
+                <tr>
+                    <td class="gray WH"></td>
+                    <td class="WH bg-info lapka" data-bs-toggle="modal" data-bs-target="#mediumQuestion2"
+                        id="bukva1_vopros7" title="Уровень сложности вопроса: средний."></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td id="bukva3_vopros3" class="WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="WH bg-info lapka" data-bs-toggle="modal" data-bs-target="#hardQuestion2"
+                        id="bukva1_vopros12" title="Уровень сложности вопроса: сложный."></td>
+                    <td id="bukva4_vopros6" class="WH"></td>
+                    <td id="bukva3_vopros12" class="WH"></td>
+                    <td id="bukva4_vopros12" class="WH"></td>
+                    <td id="bukva5_vopros12" class="WH"></td>
+                    <td id="bukva6_vopros12" class="WH"></td>
+                    <td id="bukva7_vopros12" class="WH"></td>
+                    <td id="bukva8_vopros12" class="WH"></td>
+                    <td id="bukva9_vopros12" class="WH"></td>
+                    <td id="bukva10_vopros12" class="WH"></td>
+                    <td id="bukva11_vopros12" class="WH"></td>
+                </tr>
+                <tr>
+                    <td class="WH bg-info lapka" data-bs-toggle="modal" data-bs-target="#easyQuestion5"
+                        id="bukva1_vopros5" title="Уровень сложности вопроса: лёгкий."></td>
+                    <td id="bukva2_vopros5" class="WH"></td>
+                    <td id="bukva3_vopros5" class="WH"></td>
+                    <td id="bukva4_vopros5" class="WH"></td>
+                    <td id="bukva5_vopros5" class="WH"></td>
+                    <td id="bukva6_vopros5" class="WH"></td>
+                    <td id="bukva7_vopros5" class="WH"></td>
+                    <td id="bukva4_vopros3" class="WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td id="bukva5_vopros6" class="WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                </tr>
+                <tr>
+                    <td class="gray WH"></td>
+                    <td id="bukva3_vopros7" class="WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td id="bukva5_vopros3" class="WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="WH bg-info lapka" data-bs-toggle="modal" data-bs-target="#hardQuestion1"
+                        id="bukva1_vopros11" title="Уровень сложности вопроса: сложный."></td>
+                    <td id="bukva6_vopros6" class="WH"></td>
+                    <td id="bukva3_vopros11" class="WH"></td>
+                    <td id="bukva4_vopros11" class="WH"></td>
+                    <td id="bukva5_vopros11" class="WH"></td>
+                    <td id="bukva6_vopros11" class="WH"></td>
+                    <td id="bukva7_vopros11" class="WH"></td>
+                    <td id="bukva8_vopros11" class="WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                </tr>
+                <tr>
+                    <td class="gray WH"></td>
+                    <td id="bukva4_vopros7" class="WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td id="bukva6_vopros3" class="WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td id="bukva7_vopros6" class="WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                </tr>
+                <tr>
+                    <td class="gray WH"></td>
+                    <td id="bukva5_vopros7" class="WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td id="bukva7_vopros3" class="WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="WH bg-info lapka" data-bs-toggle="modal" data-bs-target="#peresechenie1"
+                        id="bukva1_vopros2" title="Уровни сложностей вопросов: лёгкий и средний."></td>
+                    <td id="bukva2_vopros9" class="WH"></td>
+                    <td id="bukva3_vopros9" class="WH"></td>
+                    <td id="bukva4_vopros9" class="WH"></td>
+                    <td id="bukva5_vopros9" class="WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                </tr>
+                <tr>
+                    <td class="gray WH"></td>
+                    <td class="WH bg-info lapka" data-bs-toggle="modal" data-bs-target="#mediumQuestion5"
+                        id="bukva6_vopros7" title="Уровень сложности вопроса: средний."></td>
+                    <td id="bukva2_vopros10" class="WH"></td>
+                    <td id="bukva3_vopros10" class="WH"></td>
+                    <td id="bukva4_vopros10" class="WH"></td>
+                    <td id="bukva5_vopros10" class="WH"></td>
+                    <td id="bukva6_vopros10" class="WH"></td>
+                    <td id="bukva8_vopros3" class="WH"></td>
+                    <td id="bukva8_vopros10" class="WH"></td>
+                    <td id="bukva9_vopros10" class="WH"></td>
+                    <td id="bukva10_vopros10" class="WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td id="bukva2_vopros2" class="WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                </tr>
+                <tr>
+                    <td class="gray WH"></td>
+                    <td id="bukva7_vopros7" class="WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="WH bg-info lapka" data-bs-toggle="modal" data-bs-target="#easyQuestion4"
+                        id="bukva1_vopros4" title="Уровень сложности вопроса: лёгкий."></td>
+                    <td id="bukva3_vopros2" class="WH"></td>
+                    <td id="bukva3_vopros4" class="WH"></td>
+                    <td class="WH bg-info lapka" data-bs-toggle="modal" data-bs-target="#hardQuestion4"
+                        id="bukva4_vopros4" title="Уровень сложности вопроса: сложный."></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                </tr>
+                <tr>
+                    <td class="gray WH"></td>
+                    <td id="bukva8_vopros7" class="WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td id="bukva4_vopros2" class="WH"></td>
+                    <td class="gray WH"></td>
+                    <td id="bukva2_vopros14" class="WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                </tr>
+                <tr>
+                    <td class="gray WH"></td>
+                    <td id="bukva9_vopros7" class="WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td id="bukva5_vopros2" class="WH"></td>
+                    <td class="gray WH"></td>
+                    <td id="bukva3_vopros14" class="WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                </tr>
+                <tr>
+                    <td class="gray WH"></td>
+                    <td id="bukva10_vopros7" class="WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="WH bg-info lapka" data-bs-toggle="modal" data-bs-target="#hardQuestion3"
+                        id="bukva1_vopros13" title="Уровень сложности вопроса: сложный."></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td id="bukva6_vopros2" class="WH"></td>
+                    <td class="gray WH"></td>
+                    <td id="bukva4_vopros14" class="WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                </tr>
+                <tr>
+                    <td class="gray WH"></td>
+                    <td class="WH bg-info lapka" data-bs-toggle="modal" data-bs-target="#hardQuestion5"
+                        id="bukva11_vopros7" title="Уровень сложности вопроса: сложный."></td>
+                    <td id="bukva2_vopros15" class="WH"></td>
+                    <td id="bukva3_vopros15" class="WH"></td>
+                    <td id="bukva4_vopros15" class="WH"></td>
+                    <td id="bukva5_vopros15" class="WH"></td>
+                    <td id="bukva6_vopros15" class="WH"></td>
+                    <td id="bukva7_vopros15" class="WH"></td>
+                    <td id="bukva8_vopros15" class="WH"></td>
+                    <td id="bukva2_vopros13" class="WH"></td>
+                    <td id="bukva10_vopros15" class="WH"></td>
+                    <td id="bukva11_vopros15" class="WH"></td>
+                    <td id="bukva12_vopros15" class="WH"></td>
+                    <td id="bukva7_vopros2" class="WH"></td>
+                    <td class="gray WH"></td>
+                    <td id="bukva5_vopros14" class="WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                </tr>
+                <tr>
+                    <td class="gray WH"></td>
+                    <td id="bukva12_vopros7" class="WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td id="bukva3_vopros13" class="WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td id="bukva6_vopros14" class="WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                </tr>
+                <tr>
+                    <td class="gray WH"></td>
+                    <td id="bukva13_vopros7" class="WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td id="bukva4_vopros13" class="WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td id="bukva7_vopros14" class="WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                </tr>
+                <tr>
+                    <td class="gray WH"></td>
+                    <td id="bukva14_vopros7" class="WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td id="bukva5_vopros13" class="WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td id="bukva8_vopros14" class="WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                </tr>
+                <tr>
+                    <td class="gray WH"></td>
+                    <td id="bukva15_vopros7" class="WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td id="bukva6_vopros13" class="WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                </tr>
+                <tr>
+                    <td class="gray WH"></td>
+                    <td class="WH bg-info lapka" data-bs-toggle="modal" data-bs-target="#easyQuestion1"
+                        id="bukva1_vopros1" title="Уровень сложности вопроса: лёгкий."></td>
+                    <td id="bukva2_vopros1" class="WH"></td>
+                    <td id="bukva3_vopros1" class="WH"></td>
+                    <td id="bukva4_vopros1" class="WH"></td>
+                    <td id="bukva5_vopros1" class="WH"></td>
+                    <td id="bukva6_vopros1" class="WH"></td>
+                    <td id="bukva7_vopros1" class="WH"></td>
+                    <td class="gray WH"></td>
+                    <td id="bukva7_vopros13" class="WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                    <td class="gray WH"></td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h3 class="text-white mb-5">
+                        <span style="font-size: 50px;"><strong><u>Вывод:</u></strong></span><br><span
+                            style="font-size: 40px;"><strong>ученики в неофициальной форме, с юмором и играми, смогли
+                                выявить пробелы в знании предмета и закрепить полученные знания.</strong></span>
+                    </h3>
+                    <p class="color3">© МАОУ лицей №49<br>г. Калининград 2022</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="modal fade" id="easyQuestion1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-success" id="exampleModalLabel">Уровень: лёгкий.<br>Вопрос: Как в
+                        физике
+                        называют изменения, происходящие в окружающем мире?</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Ответ (7 букв):
+                    <input type="text" id="answer_question1" onkeyup="Setting1()">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                    <button class="btn btn-success" data-bs-target="#easyQuestion1answer" data-bs-toggle="modal">Узнать
+                        правильный ответ</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal" onclick="Answer1()"
+                        id="question1_button" disabled>Ответить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="easyQuestion1answer" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog  modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-success" id="exampleModalLabel">Правильный ответ</h5>
+                </div>
+                <div class="modal-body">
+                    Явление
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-target="#easyQuestion1"
+                        data-bs-toggle="modal">Вернуться к вопросу</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="easyQuestion2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-success" id="exampleModalLabel">Уровень: лёгкий.<br>Вопрос: Всё то,
+                        что
+                        существует во Вселенной, независимо от нашего сознания, это?</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Ответ (7 букв):
+                    <input type="text" id="answer_question2" onkeyup="Setting2()">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                    <button class="btn btn-success" data-bs-target="#easyQuestion2answer" data-bs-toggle="modal">Узнать
+                        правильный ответ</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal" id="question2_button" disabled
+                        onclick="Answer2()">Ответить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="easyQuestion2answer" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-success" id="exampleModalLabel">Правильный ответ</h5>
+                </div>
+                <div class="modal-body">
+                    Материя
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-target="#easyQuestion2"
+                        data-bs-toggle="modal">Вернуться к вопросу</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="easyQuestion3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-success" id="exampleModalLabel">Уровень: лёгкий.<br>Вопрос:
+                        Мельчайшая
+                        частица данного вещества, это?</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Ответ (8 букв):
+                    <input type="text" id="answer_question3" onkeyup="Setting3()">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                    <button class="btn btn-success" data-bs-target="#easyQuestion3answer" data-bs-toggle="modal">Узнать
+                        правильный ответ</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal" id="question3_button" disabled
+                        onclick="Answer3()">Ответить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="easyQuestion3answer" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-success" id="exampleModalLabel">Правильный ответ</h5>
+                </div>
+                <div class="modal-body">
+                    Молекула
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-target="#easyQuestion3"
+                        data-bs-toggle="modal">Вернуться к вопросу</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="easyQuestion4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-success" id="exampleModalLabel">Уровень: лёгкий.<br>Вопрос: Из чего
+                        состоят молекулы?</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Ответ (4 буквы):
+                    <input type="text" id="answer_question4" onkeyup="Setting4()">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                    <button class="btn btn-success" data-bs-target="#easyQuestion4answer" data-bs-toggle="modal">Узнать
+                        правильный ответ</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal" id="question4_button" disabled
+                        onclick="Answer4()">Ответить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="easyQuestion4answer" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-success" id="exampleModalLabel">Правильный ответ</h5>
+                </div>
+                <div class="modal-body">
+                    Атом
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-target="#easyQuestion4"
+                        data-bs-toggle="modal">Вернуться к вопросу</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="easyQuestion5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-success" id="exampleModalLabel">Уровень: лёгкий.<br>Вопрос:
+                        Величина,
+                        равная отношению силы, действующей перпендикулярно поверхности, к площади этой поверхности,
+                        это?
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Ответ (8 букв):
+                    <input type="text" id="answer_question5" onkeyup="Setting5()">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                    <button class="btn btn-success" data-bs-target="#easyQuestion5answer" data-bs-toggle="modal">Узнать
+                        правильный ответ</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal" id="question5_button" disabled
+                        onclick="Answer5()">Ответить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="easyQuestion5answer" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-success" id="exampleModalLabel">Правильный ответ</h5>
+                </div>
+                <div class="modal-body">
+                    Давление
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-target="#easyQuestion5"
+                        data-bs-toggle="modal">Вернуться к вопросу</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="mediumQuestion1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-warning" id="exampleModalLabel">Уровень: средний.<br>Вопрос: Явление
+                        сохранения скорости тела, при отсутствии действия на него других тел, это?</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Ответ (7 букв):
+                    <input type="text" id="answer_question6" onkeyup="Setting6()">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                    <button class="btn btn-success" data-bs-target="#mediumQuestion1answer"
+                        data-bs-toggle="modal">Узнать правильный ответ</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal" id="question6_button" disabled
+                        onclick="Answer6()">Ответить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="mediumQuestion1answer" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-success" id="exampleModalLabel">Правильный ответ</h5>
+                </div>
+                <div class="modal-body">
+                    Инерция
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-target="#mediumQuestion1"
+                        data-bs-toggle="modal">Вернуться к вопросу</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="mediumQuestion2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-warning" id="exampleModalLabel">Уровень: средний.<br>Вопрос: Сила,
+                        которая производит на тело такое же действие, как несколько одновременно действующих сил,
+                        это?
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Ответ (16 букв):
+                    <input type="text" id="answer_question7" onkeyup="Setting7()">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                    <button class="btn btn-success" data-bs-target="#mediumQuestion2answer"
+                        data-bs-toggle="modal">Узнать правильный ответ</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal" id="question7_button" disabled
+                        onclick="Answer7()">Ответить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="mediumQuestion2answer" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-success" id="exampleModalLabel">Правильный ответ</h5>
+                </div>
+                <div class="modal-body">
+                    Равнодействующая
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-target="#mediumQuestion2"
+                        data-bs-toggle="modal">Вернуться к вопросу</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="mediumQuestion3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-warning" id="exampleModalLabel">Уровень: средний.<br>Вопрос:
+                        Изменение с
+                        течением времени положения тела относительно других тел называют ... движение.</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Ответ (12 букв):
+                    <input type="text" id="answer_question8" onkeyup="Setting8()">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                    <button class="btn btn-success" data-bs-target="#mediumQuestion3answer"
+                        data-bs-toggle="modal">Узнать правильный ответ</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal" id="question8_button" disabled
+                        onclick="Answer8()">Ответить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="mediumQuestion3answer" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-success" id="exampleModalLabel">Правильный ответ</h5>
+                </div>
+                <div class="modal-body">
+                    Механическое
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-target="#mediumQuestion3"
+                        data-bs-toggle="modal">Вернуться к вопросу</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="mediumQuestion4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-warning" id="exampleModalLabel">Уровень: средний.<br>Вопрос:
+                        Физическая
+                        величина, которая является мерой инертности тела - ... тела.</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Ответ (5 букв):
+                    <input type="text" id="answer_question9" onkeyup="Setting9()">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                    <button class="btn btn-success" data-bs-target="#mediumQuestion4answer"
+                        data-bs-toggle="modal">Узнать правильный ответ</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal" id="question9_button" disabled
+                        onclick="Answer9()">Ответить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="mediumQuestion4answer" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-success" id="exampleModalLabel">Правильный ответ</h5>
+                </div>
+                <div class="modal-body">
+                    Масса
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-target="#mediumQuestion4"
+                        data-bs-toggle="modal">Вернуться к вопросу</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="mediumQuestion5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-warning" id="exampleModalLabel">Уровень: средний.<br>Вопрос: Любое
+                        изменение формы и размера тела, это?</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Ответ (10 букв):
+                    <input type="text" id="answer_question10" onkeyup="Setting10()">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                    <button class="btn btn-success" data-bs-target="#mediumQuestion5answer"
+                        data-bs-toggle="modal">Узнать правильный ответ</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal" id="question10_button"
+                        disabled onclick="Answer10()">Ответить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="mediumQuestion5answer" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-success" id="exampleModalLabel">Правильный ответ</h5>
+                </div>
+                <div class="modal-body">
+                    Деформация
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-target="#mediumQuestion5"
+                        data-bs-toggle="modal">Вернуться к вопросу</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="hardQuestion1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-danger" id="exampleModalLabel">Уровень: сложный.<br>Вопрос: Какое
+                        явление показано на рисунке?</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/Вопрос 1.jpg" alt="Вопрос">
+                    <div class="col-12">
+                        Ответ (8 букв):
+                        <input type="text" id="answer_question11" onkeyup="Setting11()">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                    <button class="btn btn-success" data-bs-target="#hardQuestion1answer" data-bs-toggle="modal">Узнать
+                        правильный ответ</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal" id="question11_button"
+                        disabled onclick="Answer11()">Ответить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="hardQuestion1answer" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-success" id="exampleModalLabel">Правильный ответ</h5>
+                </div>
+                <div class="modal-body">
+                    Диффузия
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-target="#hardQuestion1"
+                        data-bs-toggle="modal">Вернуться к вопросу</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="hardQuestion2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-danger" id="exampleModalLabel">Уровень: сложный.<br>Вопрос: На
+                        рисунке
+                        показано явление, которое называется - ... движение.</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/Вопрос 2.png" alt="Вопрос" style="width: 100%; height: 100%;">
+                    Ответ (11 букв):
+                    <input type="text" id="answer_question12" onkeyup="Setting12()">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                    <button class="btn btn-success" data-bs-target="#hardQuestion2answer" data-bs-toggle="modal">Узнать
+                        правильный ответ</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal" id="question12_button"
+                        disabled onclick="Answer12()">Ответить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="hardQuestion2answer" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-success" id="exampleModalLabel">Правильный ответ</h5>
+                </div>
+                <div class="modal-body">
+                    Броуновское
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-target="#hardQuestion2"
+                        data-bs-toggle="modal">Вернуться к вопросу</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="hardQuestion3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-danger" id="exampleModalLabel">Уровень: сложный.<br>Вопрос: На
+                        рисунке
+                        показан закон ... .</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/Вопрос 3.jpg" alt="Вопрос" style="width: 100%; height: 100%;">
+                    Ответ (7 букв):
+                    <input type="text" id="answer_question13" onkeyup="Setting13()">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                    <button class="btn btn-success" data-bs-target="#hardQuestion3answer" data-bs-toggle="modal">Узнать
+                        правильный ответ</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal" id="question13_button"
+                        disabled onclick="Answer13()">Ответить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="hardQuestion3answer" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-success" id="exampleModalLabel">Правильный ответ</h5>
+                </div>
+                <div class="modal-body">
+                    Паскаля
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-target="#hardQuestion3"
+                        data-bs-toggle="modal">Вернуться к вопросу</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="hardQuestion4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-danger" id="exampleModalLabel">Уровень: сложный.<br>Вопрос: Как
+                        называется прибор, изображённый на рисунке?</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/Вопрос 4.jpg" alt="Вопрос" style="width: 100%; height: 100%;">
+                    Ответ (8 букв):
+                    <input type="text" id="answer_question14" onkeyup="Setting14()">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                    <button class="btn btn-success" data-bs-target="#hardQuestion4answer" data-bs-toggle="modal">Узнать
+                        правильный ответ</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal" id="question14_button"
+                        disabled onclick="Answer14()">Ответить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="hardQuestion4answer" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-success" id="exampleModalLabel">Правильный ответ</h5>
+                </div>
+                <div class="modal-body">
+                    Манометр
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-target="#hardQuestion4"
+                        data-bs-toggle="modal">Вернуться к вопросу</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="hardQuestion5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-danger" id="exampleModalLabel">Уровень: сложный.<br>Вопрос: На
+                        рисунке
+                        показано явление, которое называется - ... сила.</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/Вопрос 5.jpg" alt="Вопрос" style="width: 100%; height: 100%;">
+                    Ответ (13 букв):
+                    <input type="text" id="answer_question15" onkeyup="Setting15()">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                    <button class="btn btn-success" data-bs-target="#hardQuestion5answer" data-bs-toggle="modal">Узнать
+                        правильный ответ</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal" id="question15_button"
+                        disabled onclick="Answer15()">Ответить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="hardQuestion5answer" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-success" id="exampleModalLabel">Правильный ответ</h5>
+                </div>
+                <div class="modal-body">
+                    Выталкивающая
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-target="#hardQuestion5"
+                        data-bs-toggle="modal">Вернуться к вопросу</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="peresechenie1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-danger" id="exampleModalLabel">Горизонталь или вертикаль?</h5>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                    <button class="btn btn-warning" data-bs-target="#mediumQuestion4"
+                        data-bs-toggle="modal">Горизонталь</button>
+                    <button class="btn btn-success" data-bs-target="#easyQuestion2"
+                        data-bs-toggle="modal">Вертикаль</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="peresechenie2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-danger" id="exampleModalLabel">Горизонталь или вертикаль?</h5>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                    <button class="btn btn-warning" data-bs-target="#mediumQuestion3"
+                        data-bs-toggle="modal">Горизонталь</button>
+                    <button class="btn btn-success" data-bs-target="#easyQuestion3"
+                        data-bs-toggle="modal">Вертикаль</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="position-fixed bottom-0 end-0 p-3 toast-container" style="z-index: 11;">
+        <div id="verno" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-body text-success" style="font-size: 30px;">
+                Ответ верный!👍 Молодец!
+            </div>
+        </div>
+        <div id="neverno" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-body text-danger" style="font-size: 30px;">
+                Ответ неверный!😭 Подумай ещё!
+            </div>
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+</body>
+
+</html>
